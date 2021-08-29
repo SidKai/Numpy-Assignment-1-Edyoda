@@ -29,20 +29,20 @@ f = np.array([1,2])
 g = np.array([4,5])
 
 
-
 f = np.array([1,2])
 g = np.array([4,5])
 print(np.dot(f,g))
+
 
 Q6. Concatenate following arrays along axis=0
 x=np.array([[1,2],[3,4]])
 y=np.array([[5,6]])
 
 
-
 x=np.array([[1,2],[3,4]])
 y=np.array([[5,6]])
 print(np.concatenate((x,y),axis = 0))
+
 
 Q7. How to get the common items between two python numpy arrays?
 a = np.array([1,2,3,2,3,4,3,4,5,6])
