@@ -3,22 +3,29 @@
 Q1. Use numpy to generate array of 25 random numbers sampled from a standard normal distribution
 
 import random
+import numpy as np
 data = np.random.randn(25)
 print(data)
 
 Q2. Create a random vector of size 30 and find the mean value.
 
+import random
+import numpy as np
 data = np.random.randint(10,size = 30)
 mean = data.mean()
 print(mean)
 
 Q3. Insert 1 to 100 numbers in a numpy array and reshape it to 10*10 matrix.
 
+import random
+import numpy as np
 data = np.arange(100).reshape(10,10)
 print(data)
 
 Q4. Create a 10x10 array with random values and find the minimum and maximum values.
 
+import random
+import numpy as np
 data = np.random.randint(10,size=(10,10))
 
 print(data.min())
@@ -29,6 +36,8 @@ f = np.array([1,2])
 g = np.array([4,5])
 
 
+import random
+import numpy as np
 f = np.array([1,2])
 g = np.array([4,5])
 print(np.dot(f,g))
@@ -39,6 +48,8 @@ x=np.array([[1,2],[3,4]])
 y=np.array([[5,6]])
 
 
+import random
+import numpy as np
 x=np.array([[1,2],[3,4]])
 y=np.array([[5,6]])
 print(np.concatenate((x,y),axis = 0))
@@ -49,6 +60,8 @@ a = np.array([1,2,3,2,3,4,3,4,5,6])
 b = np.array([7,2,10,2,7,4,9,4,9,8])
 
 
+import random
+import numpy as np
 a = np.array([1,2,3,2,3,4,3,4,5,6])
 b = np.array([7,2,10,2,7,4,9,4,9,8])
 print(np.intersect1d(a,b))
@@ -58,5 +71,7 @@ Q8. Sort the numpy array:
 arr = np.array([10,5,8,4,7,2,3,1])
 
 
+import random
+import numpy as np
 arr = np.array([10,5,8,4,7,2,3,1])
 print(np.sort(arr))
